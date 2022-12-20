@@ -26,12 +26,13 @@ jobs:
           command: |
             sudo npm i -g serverless
             npm install
-            npm install karma-coverage-istanbul-reporter@latest
 
       # run tests
       - run: 
           name: Run tests with code coverage
           command: npm test --coverage
+      - run:
+          command: npm install karma-coverage-istanbul-reporter@latest
 
       # deploy app            
       - run:
