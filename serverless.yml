@@ -18,6 +18,7 @@ provider:
   name: aws
   runtime: nodejs16.x
   profile: default
+  region: us-west-2
 
 # The `functions` block defines what code to deploy
 functions:
