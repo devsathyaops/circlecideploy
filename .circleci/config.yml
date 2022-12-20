@@ -36,7 +36,7 @@ jobs:
       # deploy app            
       - run:
           name: Deploy application 
-          command: sls deploy -v
+          command: sls deploy 
 
       - save_cache:
           paths:
