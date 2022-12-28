@@ -33,7 +33,7 @@ jobs:
             sudo npm i -g serverless
             npm install
             npm i -D handlebars@4.5.0
-            command: echo $Name 
+            echo $Name 
 
       # run tests
       - run: 
